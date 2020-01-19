@@ -1,0 +1,42 @@
+[
+  {
+    "py/object": "model.project.Project",
+    "desc": "test_discF3UjB",
+    "id": null,
+    "name": "test_namehZAZqg",
+    "status": "development",
+    "view_status": "private"
+  },
+  {
+    "py/object": "model.project.Project",
+    "desc": "test_discw hmp5e",
+    "id": null,
+    "name": "test_nameiDN0",
+    "status": "development",
+    "view_status": "public"
+  },
+  {
+    "py/object": "model.project.Project",
+    "desc": "test_disc8FeGh",
+    "id": null,
+    "name": "test_namegdMh",
+    "status": "release",
+    "view_status": "private"
+  },
+  {
+    "py/object": "model.project.Project",
+    "desc": "test_disco2",
+    "id": null,
+    "name": "test_name19QF",
+    "status": "development",
+    "view_status": "private"
+  },
+  {
+    "py/object": "model.project.Project",
+    "desc": "test_disc",
+    "id": null,
+    "name": "test_nameLYD",
+    "status": "obsolete",
+    "view_status": "private"
+  }
+]
