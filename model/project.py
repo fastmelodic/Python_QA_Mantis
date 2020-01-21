@@ -1,3 +1,5 @@
+from sys import maxsize
+
 
 class Project():
     def __init__(self, name, status = None, view_status = None, desc = None, id = None):
@@ -12,3 +14,9 @@ class Project():
 
     def __eq__(self, other):
         return self.name == other.name and (self.id is None or other.id is None or self.id == other.id)
+
+    def id_or_max(self):
+        if self.id:
+            return int(self.id)
+        else:
+            return maxsize
