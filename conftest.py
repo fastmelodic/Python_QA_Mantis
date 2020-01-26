@@ -27,8 +27,8 @@ def app(request, config):
     global target
     browser = request.config.getoption("--browser")
     if fixture is None or not fixture.is_valid():
-        fixture = Application(browser, config["web"]["baseUrl"])
-    fixture.session.ensure_login(config["web"]["username"], config["web"]["password"])
+        fixture = Application(browser, config)
+    fixture.session.ensure_login(config["web_admin"]["username"], config["web_admin"]["password"])
     return fixture
 
 @pytest.fixture(scope="session", autouse=True)
