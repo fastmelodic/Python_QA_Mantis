@@ -1,42 +1,42 @@
 [
   {
     "py/object": "model.project.Project",
-    "desc": "test_discF3UjB",
+    "desc": "test_discNi",
     "id": null,
-    "name": "test_namehZAZqg",
-    "status": "development",
-    "view_status": "private"
-  },
-  {
-    "py/object": "model.project.Project",
-    "desc": "test_discw hmp5e",
-    "id": null,
-    "name": "test_nameiDN0",
+    "name": "test_nameBm4P",
     "status": "development",
     "view_status": "public"
   },
   {
     "py/object": "model.project.Project",
-    "desc": "test_disc8FeGh",
+    "desc": "test_disct7WpenSXm",
     "id": null,
-    "name": "test_namegdMh",
+    "name": "test_nameXTN",
     "status": "release",
     "view_status": "private"
   },
   {
     "py/object": "model.project.Project",
-    "desc": "test_disco2",
+    "desc": "test_discwQPkVJMG",
     "id": null,
-    "name": "test_name19QF",
+    "name": "test_name",
     "status": "development",
-    "view_status": "private"
+    "view_status": "public"
   },
   {
     "py/object": "model.project.Project",
-    "desc": "test_disc",
+    "desc": "test_discz",
     "id": null,
-    "name": "test_nameLYD",
-    "status": "obsolete",
-    "view_status": "private"
+    "name": "test_nameIUV9d",
+    "status": "development",
+    "view_status": "public"
+  },
+  {
+    "py/object": "model.project.Project",
+    "desc": "test_discOwYPA6z3",
+    "id": null,
+    "name": "test_namez",
+    "status": "development",
+    "view_status": "public"
   }
 ]
