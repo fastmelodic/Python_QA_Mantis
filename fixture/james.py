@@ -4,10 +4,6 @@ class JamesHelper():
     def __init__(self, app):
         self.app = app
 
-    # def t(self, username, password):
-    #     session = JamesHelper.Session("localhost", 4555, "root", "root")
-    #     session.create_user(username, password)
-
     def ensure_user_exists(self, username, password):
         james_config = self.app.config["james"]
         session = JamesHelper.Session(james_config["host"],james_config["port"], james_config["username"], james_config["password"])
